@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "diffcorrpy"
 version = "0.1.0"
 authors = [
-  { name="Your Name", email="your.email@example.com" }, # Placeholder - update later
+  { name="Kozo Nishida", email="kozo.nishida@gmail.com" },
 ]
 description = "A Python package for Differential Correlation Analysis, translated from the R package DiffCorr."
 readme = "README.md"
@@ -24,13 +24,12 @@ dependencies = [
     "scipy",
     "pandas",
     "statsmodels",
-    # Add other dependencies as needed during translation
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/your-username/diffcorrpy" # Placeholder
-"Bug Tracker" = "https://github.com/your-username/diffcorrpy/issues" # Placeholder
-"Source" = "https://github.com/your-username/diffcorrpy" # Placeholder
+"Homepage" = "https://github.com/kozo2/diffcorrpy"
+"Bug Tracker" = "https://github.com/kozo2/diffcorrpy/issues"
+"Source" = "https://github.com/kozo2/diffcorrpy"
 
 [tool.setuptools.packages.find]
 where = ["src"]
